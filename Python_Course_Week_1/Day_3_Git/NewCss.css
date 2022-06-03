@@ -1,0 +1,58 @@
+
+.body{
+background-color: lightblue;
+}
+
+div p {
+  background-color: green;
+}
+
+body{
+    background-image: url("my_img.png")
+}
+
+p {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.container {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.small {
+	width: 180px;
+	height: auto;
+	position: relative;
+	margin: 3px;
+	border-radius: 5px;
+}
+.small:hover {
+	-webkit-transform: scale(1.03, 1.03);
+	transform: scale(1.03, 1.03);
+
+
+span{
+    color: green;
+    text-align: left;
+}
+
+
+p {
+  color: red;
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid black;
+}

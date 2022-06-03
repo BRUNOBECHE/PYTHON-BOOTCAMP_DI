@@ -1,0 +1,49 @@
+body{
+background-color:green;
+}
+
+.card{
+height:150px;
+width:100px;
+border: 1px solid black;
+border-radius: 10px;
+background-color: dodger-blue;
+font-size:30px;
+color:black;
+}
+
+.grid-container{
+border: 1px solid black;
+height: 1000px;
+display:grid;
+grid-template-column:200px 1fr 1fr 50%;
+grid-template-rows: repeat(5, 200px);
+grid-column-gap:20px
+grid-gap: 25px 30px;
+text-align: center;
+justify-items:center;
+align-items:center;
+justify-content:center;
+align-content:center;
+
+/* xxxx-items will align item within grid system */
+/*yyy-content will alaign grid system within the container */
+}
+.item1{
+     height:50px;
+        width:75px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: dodger-blue;
+        font-size:30px;
+        color:black;
+}
+.item2{
+  height:150px;
+width:100px;
+border:1px solid black;
+border-radius: 10px;
+background-color: dodger-blue;
+font-size:30px;
+color:black;
+ }

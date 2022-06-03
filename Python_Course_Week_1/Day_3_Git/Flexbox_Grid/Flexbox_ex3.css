@@ -1,0 +1,38 @@
+.card1{
+height:100px
+width:500px
+border: 1px solid black;
+border-radius: 10px;
+background-color: dodger-blue;
+font-size:30px;
+align-self:stretch;
+}
+.card2{
+height:200px
+width:400px
+border: 1px solid black;
+border-radius: 10px;
+background-color: darkgoldenrod;
+font-size:30px;
+align-self:center;
+}
+.card3{
+height:100px
+width:500px
+border: 1px solid black;
+border-radius: 10px;
+background-color: darkgoldenrod;
+font-size:30px;
+align-self:right
+}
+
+.flex-container{
+display:flex;
+flex-direction: column;
+border: 1px sold black;
+height:600px
+width:500vw;
+justify-content:space-between; /*alignment on x axis */
+align-items:flex-start;
+align-content: flex-nowrap;
+}
